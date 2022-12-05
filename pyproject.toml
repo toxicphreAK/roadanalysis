@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "roadanalysis"
+version = "0.1.0"
+description = ""
+authors = ["akueppers <alexander.kueppers@atos.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.7.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
